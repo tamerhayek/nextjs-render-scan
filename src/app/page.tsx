@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import ComponentA from './ComponentA';
 import './globals.css';
+import Link from 'next/link';
 
 export default function Home() {
 	const [value, setValue] = useState('nextjs');
@@ -14,6 +15,14 @@ export default function Home() {
 	return (
 		<div className="container">
 			<h1>Nextjs render scan</h1>
+
+			<Link
+				href="https://github.com/tamerhayek/nextjs-render-scan"
+				target="_blank"
+				rel="noreferrer"
+			>
+				Github repository
+			</Link>
 
 			<div className="form">
 				<label htmlFor="value">Modifica il testo:</label>
