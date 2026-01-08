@@ -16,7 +16,7 @@ export default function Home() {
 		<div className="container">
 			<h1>Nextjs render scan</h1>
 
-			<p>Working only in dev mode. Clone this repository and run "npm run dev"</p>
+			<p>Working only in dev mode. Clone this repository and use npm run dev</p>
 
 			<Link
 				href="https://github.com/tamerhayek/nextjs-render-scan"
